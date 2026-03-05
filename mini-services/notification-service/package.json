@@ -1,0 +1,17 @@
+{
+  "name": "luminvera-notification-service",
+  "version": "1.0.0",
+  "description": "Real-time notification service for LUMINVERA",
+  "main": "index.ts",
+  "type": "module",
+  "scripts": {
+    "dev": "bun --hot index.ts",
+    "start": "bun index.ts"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.45.0",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.0",
+    "socket.io": "^4.8.0"
+  }
+}
